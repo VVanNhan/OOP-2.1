@@ -1,0 +1,44 @@
+public class book {
+    String Name;
+    String author;
+    int pages;
+    Double price;
+    int qty;
+    public book(String Name, String author, int pages, Double price, int qty) {
+        this.Name = Name;
+        this.author = author;
+        this.pages = pages;
+        this.price = price;
+        this.qty = qty;
+    }
+    public String getTitle() {
+        return Name;
+    }
+    public void setTitle(String title) {
+        this.Name = Name;
+    }
+    public String getAuthor() {
+        return author;
+    }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+    public int getPages() {
+        return pages;
+    }
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+    public Double getPrice() {
+        return price;
+    }
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+    public int getQty() {
+        return qty;
+    }
+    public String toString() {
+        return "Book [Name= " + Name + ", author= " + author + ", pages= " + pages + ", price= " + price + ", qty= " + qty +"]";
+    }
+}
